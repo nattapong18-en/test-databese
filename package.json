@@ -10,6 +10,7 @@
     "build": "next build",
     "cf:build": "opennextjs-cloudflare build",
     "cf:deploy": "opennextjs-cloudflare deploy",
+    "cf:upload": "opennextjs-cloudflare upload",
     "start": "next start",
     "lint": "next lint",
     "simulate": "node scripts/simulate-prices.mjs"
