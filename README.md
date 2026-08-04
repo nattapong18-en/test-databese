@@ -155,6 +155,17 @@ npm run build
 node --check scripts/simulate-prices.mjs
 ```
 
+## การ Deploy ด้วย Cloudflare Workers
+
+ใน Cloudflare Workers ให้ตั้งค่า Build command และ Deploy command ดังนี้:
+
+```text
+Build command: npm run cf:build
+Deploy command: npm run cf:deploy
+```
+
+ไม่ควรใช้ `npx wrangler deploy` เป็น Deploy command โดยตรง เพราะต้องให้ OpenNext สร้าง `.open-next/worker.js` ก่อน แล้วจึง deploy Worker
+
 ## ขอบเขตและข้อจำกัด
 
 - ไม่มีระบบ Login
