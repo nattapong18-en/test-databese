@@ -4,6 +4,9 @@ node_modules/
 # Next.js
 .next/
 out/
+.open-next/
+.wrangler/
+worker-configuration.d.ts
 
 # production
 build/
